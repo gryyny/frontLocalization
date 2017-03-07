@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="shortcut icon" href="{ defaults.path }assets/favicon.ico">
+    <link rel="stylesheet" href="{ defaults.path }assets/css/common.css">
+</head>
+<body>
+<div class="full-height">
+    <div class="full-height-top">
+        {% import "includes/_header.html" as header %}
+        {{header.active('about')}}
+        <div class="full-width block-content">
+            <div class="inner">
+                <h1>{ about.heading }</h1>
+            </div>
+        </div>
+    </div>
+    <div class="full-height-bottom">
+        {% include "includes/_footer.html" %}
+    </div>
+</div>
+
+<!-- popups -->
+{% include "includes/_popups.html" %}
+<!-- popups end -->
+
+<script src="{ defaults.path }assets/js/libs/jquery.js"></script>
+<script src="{ defaults.path }assets/js/libs/svg-injector.js"></script>
+<script src="{ defaults.path }assets/js/common.js"></script>
+</body>
+</html>

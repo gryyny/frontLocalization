@@ -1,0 +1,10 @@
+{
+  "path": "../",
+  "lang_text": "English",
+  "heading": "Welcome!",
+  "content":  "Some content",
+  "btn_text": "popup",
+  "footer": "Some footer",
+  "popup_title": "Title",
+  "popup_close": "Close"
+}
